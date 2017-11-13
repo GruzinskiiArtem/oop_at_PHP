@@ -12,13 +12,13 @@ class HourSalary implements iSalary
 
     function __construct(int $money, int $hour)
     {
-        $this->money=$money;
-        $this->hour=$hour;
+        $this->money = $money;
+        $this->hour = $hour;
     }
 
-    function calcSalary(): int
+    function calcSalary() : int
     {
-        $this->salary=$this->money*$this->hour;
+        $this->salary = $this->money * $this->hour;
         return $this->salary;
     }
 

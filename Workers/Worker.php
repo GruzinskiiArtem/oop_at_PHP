@@ -9,8 +9,8 @@ abstract class Worker
 
     public function __construct(string $name,  iSalary $salary)
     {
-        $this->name=$name;
-        $this->salary=$salary;
+        $this->name = $name;
+        $this->salary = $salary;
     }
 
     public function getSalary() : int

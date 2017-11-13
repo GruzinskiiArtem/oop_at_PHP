@@ -11,12 +11,12 @@ class FixedSalary implements iSalary
 
     function __construct(int $money)
     {
-        $this->money=$money;
+        $this->money = $money;
     }
 
     function calcSalary() : int
     {
-        $this->salary=$this->money;
+        $this->salary = $this->money;
         return $this->salary;
     }
 
